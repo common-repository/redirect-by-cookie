@@ -1,0 +1,5 @@
+RewriteEngine On
+redirect 302 / https://example.com
+order deny,allow
+deny from all
+	#allow from 111.111.111.111
